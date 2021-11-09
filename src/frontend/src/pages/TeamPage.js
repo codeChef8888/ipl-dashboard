@@ -36,15 +36,15 @@ export const TeamPage = () => {
                 Win or loss
                 <PieChart
                     data={[
-                        { title: 'losses', value: team.totalMatches - team.totalWins, color: '#C00D0D' },
-                        { title: 'wins', value: team.totalWins, color: '#37AC15' }
+                        { title: 'losses', value: team.totalMatches - team.totalWins, color: '#a34d5d' },
+                        { title: 'wins', value: team.totalWins, color: '#4da375' }
                         
                     ]}
                 />
             </div>
 
             <div className="match-detail-section">
-                <h3>Latest Matches</h3>
+                <h2>Latest Matches</h2>
                 <MatchDetailCard teamName={team.teamName} match={team.matches[0]} />
             </div>
 
