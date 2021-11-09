@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### REACT ###
-/src/frontend/node_modules/
+node_modules/
